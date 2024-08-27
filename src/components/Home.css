@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.product {
+  width: 20%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 16px;
+  margin: 10px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product p {
+  font-size: 16px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product p .react-icons {
+  margin-left: 4px;
+}
+
+.Header {
+  height: 80px;
+  background-color: gray;
+  color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.Header h1 {
+  font-size: 24px;
+}
+
+.Header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Header ul li {
+  margin-left: 15px;
+}
+
+.Header ul li a {
+  color: bisque;
+  text-decoration: none;
+}
+
+.Header ul li span {
+  background-color: #ff5733;
+  border-radius: 50%;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold;
+}
